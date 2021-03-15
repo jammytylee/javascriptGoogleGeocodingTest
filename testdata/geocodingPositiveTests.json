@@ -1,0 +1,3178 @@
+[
+	{
+		"testDescription": "Geocoding residential condo address",
+		"inputs": {
+			"address": "unit 411 2978 Burlington Dr, Coquitlam, BC"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "411",
+							"short_name": "411",
+							"types": [
+								"subpremise"
+							]
+						},
+						{
+							"long_name": "2978",
+							"short_name": "2978",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Burlington Drive",
+							"short_name": "Burlington Dr",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3B 7S6",
+							"short_name": "V3B 7S6",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "411-2978 Burlington Dr, Coquitlam, BC V3B 7S6, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.28417640000001,
+							"lng": -122.7964581
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.28552538029151,
+								"lng": -122.7951091197085
+							},
+							"southwest": {
+								"lat": 49.28282741970851,
+								"lng": -122.7978070802915
+							}
+						}
+					},
+					"place_id": "EjU0MTEtMjk3OCBCdXJsaW5ndG9uIERyLCBDb3F1aXRsYW0sIEJDIFYzQiA3UzYsIENhbmFkYSIfGh0KFgoUChIJu89s9zF_hlQRI26YAsKG6ZUSAzQxMQ",
+					"types": [
+						"subpremise"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding residential townhouse address",
+		"inputs": {
+			"address": "15-1543 139th Ct NE, Bellevue, WA 98005, United States"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1543",
+							"short_name": "1543",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "139th Court Northeast",
+							"short_name": "139th Ct NE",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Crossroads",
+							"short_name": "Crossroads",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Bellevue",
+							"short_name": "Bellevue",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "King County",
+							"short_name": "King County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Washington",
+							"short_name": "WA",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "98005",
+							"short_name": "98005",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1543 139th Ct NE, Bellevue, WA 98005, USA",
+					"geometry": {
+						"location": {
+							"lat": 47.6235323,
+							"lng": -122.1539494
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 47.6248812802915,
+								"lng": -122.1526004197085
+							},
+							"southwest": {
+								"lat": 47.6221833197085,
+								"lng": -122.1552983802915
+							}
+						}
+					},
+					"place_id": "ChIJbdEf1aptkFQRWn2KyzcJHI4",
+					"plus_code": {
+						"compound_code": "JRFW+CC Bellevue, WA, USA",
+						"global_code": "84VVJRFW+CC"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding residential house address",
+		"inputs": {
+			"address": "Calle 31 116, Francisco I. Madero, 97320 Francisco I. Madero, Yuc., Mexico"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "116",
+							"short_name": "116",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Calle 31",
+							"short_name": "Calle 31",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Francisco I. Madero",
+							"short_name": "Francisco I. Madero",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_1"
+							]
+						},
+						{
+							"long_name": "Francisco I. Madero",
+							"short_name": "Francisco I. Madero",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Yucatán",
+							"short_name": "Yuc.",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Mexico",
+							"short_name": "MX",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "97320",
+							"short_name": "97320",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Calle 31 116, Francisco I. Madero, 97320 Francisco I. Madero, Yuc., Mexico",
+					"geometry": {
+						"location": {
+							"lat": 21.2835406,
+							"lng": -89.65851789999999
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 21.2848895802915,
+								"lng": -89.65716891970848
+							},
+							"southwest": {
+								"lat": 21.2821916197085,
+								"lng": -89.65986688029149
+							}
+						}
+					},
+					"place_id": "ChIJA00Or9TcVY8Rc7XGwB_1W5I",
+					"plus_code": {
+						"compound_code": "78MR+CH Francisco I. Madero, Progreso, Yucatan, Mexico",
+						"global_code": "76HG78MR+CH"
+					},
+					"types": [
+						"street_address"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding business address with special character",
+		"inputs": {
+			"address": "590 Robson St #200, Vancouver, BC V6B 2B7"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "#200",
+							"short_name": "#200",
+							"types": [
+								"subpremise"
+							]
+						},
+						{
+							"long_name": "590",
+							"short_name": "590",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Robson Street",
+							"short_name": "Robson St",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Central Vancouver",
+							"short_name": "Central Vancouver",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Vancouver",
+							"short_name": "Vancouver",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V6B 2B7",
+							"short_name": "V6B 2B7",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "590 Robson St #200, Vancouver, BC V6B 2B7, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2805109,
+							"lng": -123.1188468
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.28185988029149,
+								"lng": -123.1174978197085
+							},
+							"southwest": {
+								"lat": 49.27916191970849,
+								"lng": -123.1201957802915
+							}
+						}
+					},
+					"place_id": "ChIJX6I2Tn5xhlQRlJMgMDHeEUI",
+					"types": [
+						"subpremise"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding using plus-code in address",
+		"inputs": {
+			"address": "87VX+HP Ponta Verde, Maceió - State of Alagoas, Brazil"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "87VX+HP",
+							"short_name": "87VX+HP",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Ponta Verde",
+							"short_name": "Ponta Verde",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_1"
+							]
+						},
+						{
+							"long_name": "Maceió",
+							"short_name": "Maceió",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Alagoas",
+							"short_name": "AL",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Brazil",
+							"short_name": "BR",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "87VX+HP Ponta Verde, Maceió - AL, Brazil",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -9.655999999999999,
+								"lng": -35.700625
+							},
+							"southwest": {
+								"lat": -9.656125,
+								"lng": -35.70075
+							}
+						},
+						"location": {
+							"lat": -9.656062499999999,
+							"lng": -35.7006875
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": -9.654713519708498,
+								"lng": -35.6993385197085
+							},
+							"southwest": {
+								"lat": -9.657411480291503,
+								"lng": -35.7020364802915
+							}
+						}
+					},
+					"place_id": "GhIJlUOLbOdPI8ARppvEILDZQcA",
+					"plus_code": {
+						"compound_code": "87VX+HP Ponta Verde, Maceió - AL, Brazil",
+						"global_code": "692687VX+HP"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding using name of Point of Interest",
+		"inputs": {
+			"address": "Disneyland"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Disneyland Drive",
+							"short_name": "Disneyland Dr",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Anaheim Resort",
+							"short_name": "Anaheim Resort",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Anaheim",
+							"short_name": "Anaheim",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Orange County",
+							"short_name": "Orange County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "California",
+							"short_name": "CA",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "92802",
+							"short_name": "92802",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Disneyland Dr, Anaheim, CA 92802, USA",
+					"geometry": {
+						"location": {
+							"lat": 33.810485,
+							"lng": -117.918989
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 33.8118339802915,
+								"lng": -117.9176400197085
+							},
+							"southwest": {
+								"lat": 33.8091360197085,
+								"lng": -117.9203379802915
+							}
+						}
+					},
+					"place_id": "ChIJg3XXhNrX3IARUc0M9bIC_X4",
+					"plus_code": {
+						"compound_code": "R36J+5C Anaheim, CA, USA",
+						"global_code": "8554R36J+5C"
+					},
+					"types": [
+						"amusement_park",
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Resolving ambiguous point of interest geocoding using bounds",
+		"inputs": {
+			"address": "Disneyland",
+			"bounds": "35.6092581255873,139.84587726423015|35.66416738820308,139.93420180046067"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1-1",
+							"short_name": "1-1",
+							"types": [
+								"premise"
+							]
+						},
+						{
+							"long_name": "Maihama",
+							"short_name": "Maihama",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_2"
+							]
+						},
+						{
+							"long_name": "Urayasu",
+							"short_name": "Urayasu",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Chiba",
+							"short_name": "Chiba",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Japan",
+							"short_name": "JP",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "279-0031",
+							"short_name": "279-0031",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan",
+					"geometry": {
+						"location": {
+							"lat": 35.6328964,
+							"lng": 139.8803943
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 35.6342453802915,
+								"lng": 139.8817432802915
+							},
+							"southwest": {
+								"lat": 35.6315474197085,
+								"lng": 139.8790453197085
+							}
+						}
+					},
+					"place_id": "ChIJszdHEQN9GGARy9MJ1TY22eQ",
+					"plus_code": {
+						"compound_code": "JVMJ+55 Urayasu, Chiba, Japan",
+						"global_code": "8Q7XJVMJ+55"
+					},
+					"types": [
+						"amusement_park",
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Output geocode information with unicode language",
+		"inputs": {
+			"address": "Disneyland",
+			"bounds": "35.6092581255873,139.84587726423015|35.66416738820308,139.93420180046067",
+			"language": "ja"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "１−１",
+							"short_name": "１−１",
+							"types": [
+								"premise"
+							]
+						},
+						{
+							"long_name": "舞浜",
+							"short_name": "舞浜",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_2"
+							]
+						},
+						{
+							"long_name": "浦安市",
+							"short_name": "浦安市",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "千葉県",
+							"short_name": "千葉県",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "日本",
+							"short_name": "JP",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "279-0031",
+							"short_name": "279-0031",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "日本、〒279-0031 千葉県浦安市舞浜１−１",
+					"geometry": {
+						"location": {
+							"lat": 35.6328964,
+							"lng": 139.8803943
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 35.6342453802915,
+								"lng": 139.8817432802915
+							},
+							"southwest": {
+								"lat": 35.6315474197085,
+								"lng": 139.8790453197085
+							}
+						}
+					},
+					"place_id": "ChIJszdHEQN9GGARy9MJ1TY22eQ",
+					"plus_code": {
+						"compound_code": "JVMJ+55 日本、千葉県浦安市",
+						"global_code": "8Q7XJVMJ+55"
+					},
+					"types": [
+						"amusement_park",
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Output geocode information with unexpected language output, testing best language match",
+		"inputs": {
+			"address": "Disneyland",
+			"bounds": "35.6092581255873,139.84587726423015|35.66416738820308,139.93420180046067",
+			"language": "fr"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "29",
+							"short_name": "29",
+							"types": [
+								"premise"
+							]
+						},
+						{
+							"long_name": "Maihama",
+							"short_name": "Maihama",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_2"
+							]
+						},
+						{
+							"long_name": "Urayasu",
+							"short_name": "Urayasu",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Chiba",
+							"short_name": "Chiba",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Japon",
+							"short_name": "JP",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "279-0031",
+							"short_name": "279-0031",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "29 Maihama, Urayasu, Chiba 279-0031, Japon",
+					"geometry": {
+						"location": {
+							"lat": 35.6352473,
+							"lng": 139.879054
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 35.63659628029149,
+								"lng": 139.8804029802915
+							},
+							"southwest": {
+								"lat": 35.63389831970849,
+								"lng": 139.8777050197085
+							}
+						}
+					},
+					"place_id": "ChIJuRyVPRR9GGAR34O2bGxHIig",
+					"plus_code": {
+						"compound_code": "JVPH+3J Urayasu, Préfecture de Chiba, Japon",
+						"global_code": "8Q7XJVPH+3J"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Resolving ambiguous point of interest geocoding using region parameter",
+		"inputs": {
+			"address": "Disneyland",
+			"region": "fr"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Boulevard de Parc",
+							"short_name": "Boulevard de Parc",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coupvray",
+							"short_name": "Coupvray",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Seine-et-Marne",
+							"short_name": "Seine-et-Marne",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Île-de-France",
+							"short_name": "IDF",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "France",
+							"short_name": "FR",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "77700",
+							"short_name": "77700",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Boulevard de Parc, 77700 Coupvray, France",
+					"geometry": {
+						"location": {
+							"lat": 48.8673858,
+							"lng": 2.783593
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 48.8687347802915,
+								"lng": 2.784941980291502
+							},
+							"southwest": {
+								"lat": 48.8660368197085,
+								"lng": 2.782244019708498
+							}
+						}
+					},
+					"place_id": "ChIJveJ6yhkd5kcRYOYQY8v4-lc",
+					"plus_code": {
+						"compound_code": "VQ8M+XC Coupvray, France",
+						"global_code": "8FW4VQ8M+XC"
+					},
+					"types": [
+						"amusement_park",
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address that results in partial match",
+		"inputs": {
+			"address": "32-3552 Victoria Dr, Coquitlam, BC"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "3552",
+							"short_name": "3552",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Victoria Drive",
+							"short_name": "Victoria Dr",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Burke Mountain",
+							"short_name": "Burke Mountain",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3C 3V4",
+							"short_name": "V3C 3V4",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "3552 Victoria Dr, Coquitlam, BC V3C 3V4, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2861583,
+								"lng": -122.7362483
+							},
+							"southwest": {
+								"lat": 49.285961,
+								"lng": -122.7364672
+							}
+						},
+						"location": {
+							"lat": 49.2860723,
+							"lng": -122.73633
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2874086302915,
+								"lng": -122.7350087697085
+							},
+							"southwest": {
+								"lat": 49.2847106697085,
+								"lng": -122.7377067302915
+							}
+						}
+					},
+					"partial_match": true,
+					"place_id": "ChIJlUWzlnZ_hlQRc5kAeI4na18",
+					"types": [
+						"premise"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address that has approximate geometry location",
+		"inputs": {
+			"address": "Komp. Ardhini 1"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Komplek Ardhini 1",
+							"short_name": "Komp. Ardhini 1",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "RT 006",
+							"short_name": "RT 006",
+							"types": [
+								"political"
+							]
+						},
+						{
+							"long_name": "RW 004",
+							"short_name": "RW 004",
+							"types": [
+								"political"
+							]
+						},
+						{
+							"long_name": "Jatirahayu",
+							"short_name": "Jatirahayu",
+							"types": [
+								"administrative_area_level_4",
+								"political"
+							]
+						},
+						{
+							"long_name": "Kecamatan Pondok Melati",
+							"short_name": "Kec. Pd. Melati",
+							"types": [
+								"administrative_area_level_3",
+								"political"
+							]
+						},
+						{
+							"long_name": "Kota Bekasi",
+							"short_name": "Kota Bks",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Jawa Barat",
+							"short_name": "Jawa Barat",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Indonesia",
+							"short_name": "ID",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Komp. Ardhini 1, RT.006/RW.004, Jatirahayu, Kec. Pd. Melati, Kota Bks, Jawa Barat, Indonesia",
+					"geometry": {
+						"location": {
+							"lat": -6.288655599999999,
+							"lng": 106.9178099
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -6.2775646,
+								"lng": 106.9338173
+							},
+							"southwest": {
+								"lat": -6.2997463,
+								"lng": 106.9018025
+							}
+						}
+					},
+					"place_id": "ChIJa1Kp1lONaS4ROzkIn1Qn1f8",
+					"types": [
+						"neighborhood",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding using place ID",
+		"inputs": {
+			"place_id": "ChIJCz3xipsQLxgRHZdNqnea670"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Kenya",
+							"short_name": "KE",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "Woodley",
+							"short_name": "Woodley",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_1"
+							]
+						},
+						{
+							"long_name": "Nairobi",
+							"short_name": "Nairobi",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Nairobi County",
+							"short_name": "Nairobi County",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Ngong Road P O 45425 Nairobi KE, Nairobi, Kenya",
+					"geometry": {
+						"location": {
+							"lat": -1.3006549,
+							"lng": 36.787101
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": -1.299000619708498,
+								"lng": 36.7883823802915
+							},
+							"southwest": {
+								"lat": -1.301698580291502,
+								"lng": 36.7856844197085
+							}
+						}
+					},
+					"place_id": "ChIJCz3xipsQLxgRHZdNqnea670",
+					"plus_code": {
+						"compound_code": "MQXP+PR Nairobi, Kenya",
+						"global_code": "6GCRMQXP+PR"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"shopping_mall"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - intersection",
+		"inputs": {
+			"address": "Hastings Street at Boundary"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Hastings Street & Boundary Road",
+							"short_name": "Hastings St & Boundary Rd",
+							"types": [
+								"intersection"
+							]
+						},
+						{
+							"long_name": "East Vancouver",
+							"short_name": "East Vancouver",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Vancouver",
+							"short_name": "Vancouver",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V5K 2B1",
+							"short_name": "V5K 2B1",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Hastings St & Boundary Rd, Vancouver, BC V5K 2B1, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2811438,
+							"lng": -123.0236986
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.28249278029151,
+								"lng": -123.0223496197085
+							},
+							"southwest": {
+								"lat": 49.27979481970851,
+								"lng": -123.0250475802915
+							}
+						}
+					},
+					"place_id": "EjhIYXN0aW5ncyBTdCAmIEJvdW5kYXJ5IFJkLCBWYW5jb3V2ZXIsIEJDIFY1SyAyQjEsIENhbmFkYSJmImQKFAoSCYnI8K3acIZUERXWWHOfCsM8EhQKEgmJyPCt2nCGVBEV1lhznwrDPBoUChIJh2VIm8lwhlQRvSHR2jKaascaFAoSCSvX79nVdoZUESTrCz6pCbW7IgoNrrRfHRXGEqy2",
+					"types": [
+						"intersection"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - postal code",
+		"inputs": {
+			"address": "V5A 2K2"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "V5A 2K2",
+							"short_name": "V5A 2K2",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "Lochdale",
+							"short_name": "Lochdale",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Burnaby",
+							"short_name": "Burnaby",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Burnaby, BC V5A 2K2, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2715729,
+								"lng": -122.9581671
+							},
+							"southwest": {
+								"lat": 49.268191,
+								"lng": -122.959048
+							}
+						},
+						"location": {
+							"lat": 49.2697356,
+							"lng": -122.9586995
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2715729,
+								"lng": -122.9572585697085
+							},
+							"southwest": {
+								"lat": 49.268191,
+								"lng": -122.9599565302915
+							}
+						}
+					},
+					"place_id": "ChIJK2qR0113hlQR_KK2u43TDnI",
+					"types": [
+						"postal_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - natural feature",
+		"inputs": {
+			"address": "Mount Fuji"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Mount Fuji",
+							"short_name": "Mount Fuji",
+							"types": [
+								"establishment",
+								"natural_feature"
+							]
+						},
+						{
+							"long_name": "Kitayama",
+							"short_name": "Kitayama",
+							"types": [
+								"political",
+								"sublocality",
+								"sublocality_level_2"
+							]
+						},
+						{
+							"long_name": "Fujinomiya",
+							"short_name": "Fujinomiya",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Shizuoka",
+							"short_name": "Shizuoka",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Japan",
+							"short_name": "JP",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "418-0112",
+							"short_name": "418-0112",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Mount Fuji, Kitayama, Fujinomiya, Shizuoka 418-0112, Japan",
+					"geometry": {
+						"location": {
+							"lat": 35.3606255,
+							"lng": 138.7273634
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 35.3697246,
+								"lng": 138.7433708
+							},
+							"southwest": {
+								"lat": 35.3515254,
+								"lng": 138.711356
+							}
+						}
+					},
+					"place_id": "ChIJmcj9QppiGWAR36TzFsn8oaY",
+					"plus_code": {
+						"compound_code": "9P6G+7W Fujinomiya, Shizuoka, Japan",
+						"global_code": "8Q7W9P6G+7W"
+					},
+					"types": [
+						"establishment",
+						"natural_feature"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - airport",
+		"inputs": {
+			"address": "Rome Ciampino Giovan Battista Pastine Airport"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Rome Ciampino Giovan Battista Pastine Airport",
+							"short_name": "Rome Ciampino Giovan Battista Pastine Airport",
+							"types": [
+								"airport",
+								"establishment",
+								"point_of_interest"
+							]
+						},
+						{
+							"long_name": "1651",
+							"short_name": "1651",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Via Appia Nuova",
+							"short_name": "Via Appia Nuova",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Ciampino",
+							"short_name": "Ciampino",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Roma",
+							"short_name": "Roma",
+							"types": [
+								"administrative_area_level_3",
+								"political"
+							]
+						},
+						{
+							"long_name": "Città Metropolitana di Roma",
+							"short_name": "RM",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Lazio",
+							"short_name": "Lazio",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Italy",
+							"short_name": "IT",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "00040",
+							"short_name": "00040",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Rome Ciampino Giovan Battista Pastine Airport (CIA), Via Appia Nuova, 1651, 00040 Ciampino RM, Italy",
+					"geometry": {
+						"location": {
+							"lat": 41.7991399,
+							"lng": 12.5928607
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 41.8004888802915,
+								"lng": 12.5942096802915
+							},
+							"southwest": {
+								"lat": 41.7977909197085,
+								"lng": 12.5915117197085
+							}
+						}
+					},
+					"place_id": "ChIJA-mdOLaIJRMRDVHFjx0Gtu0",
+					"plus_code": {
+						"compound_code": "QHXV+M4 Ciampino, Metropolitan City of Rome, Italy",
+						"global_code": "8FHJQHXV+M4"
+					},
+					"types": [
+						"airport",
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - park",
+		"inputs": {
+			"address": "Yellowstone Park"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Yellowstone National Park",
+							"short_name": "Yellowstone National Park",
+							"types": [
+								"establishment",
+								"park",
+								"point_of_interest",
+								"tourist_attraction"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Yellowstone National Park, United States",
+					"geometry": {
+						"location": {
+							"lat": 44.427963,
+							"lng": -110.588455
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 44.42931198029149,
+								"lng": -110.5871060197085
+							},
+							"southwest": {
+								"lat": 44.4266140197085,
+								"lng": -110.5898039802915
+							}
+						}
+					},
+					"place_id": "ChIJVVVVVVXlUVMRu-GPNDD5qKw",
+					"plus_code": {
+						"compound_code": "CCH6+5J Yellowstone National Park, WY, USA",
+						"global_code": "85PFCCH6+5J"
+					},
+					"types": [
+						"establishment",
+						"park",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - street address",
+		"inputs": {
+			"address": "750 Pacific Blvd, Vancouver, BC V6B 5E7"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "750",
+							"short_name": "750",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Pacific Boulevard",
+							"short_name": "Pacific Blvd",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Central Vancouver",
+							"short_name": "Central Vancouver",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Vancouver",
+							"short_name": "Vancouver",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V6Z 2X7",
+							"short_name": "V6Z 2X7",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "750 Pacific Blvd, Vancouver, BC V6Z 2X7, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2764026,
+							"lng": -123.1097669
+						},
+						"location_type": "RANGE_INTERPOLATED",
+						"viewport": {
+							"northeast": {
+								"lat": 49.27775158029149,
+								"lng": -123.1084179197085
+							},
+							"southwest": {
+								"lat": 49.2750536197085,
+								"lng": -123.11111588029151
+							}
+						}
+					},
+					"place_id": "Ei83NTAgUGFjaWZpYyBCbHZkLCBWYW5jb3V2ZXIsIEJDIFY2WiAyWDcsIENhbmFkYSIbEhkKFAoSCdemQMd8cYZUEUlRDdVmp-dpEO4F",
+					"types": [
+						"street_address"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - parking",
+		"inputs": {
+			"address": "Plaza of Nations Marina - Lot #499"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "750",
+							"short_name": "750",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Pacific Boulevard",
+							"short_name": "Pacific Blvd",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Central Vancouver",
+							"short_name": "Central Vancouver",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Vancouver",
+							"short_name": "Vancouver",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V6B 5E7",
+							"short_name": "V6B 5E7",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "750 Pacific Blvd, Vancouver, BC V6B 5E7, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2764281,
+							"lng": -123.1083865
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.27777708029149,
+								"lng": -123.1070375197085
+							},
+							"southwest": {
+								"lat": 49.2750791197085,
+								"lng": -123.1097354802915
+							}
+						}
+					},
+					"place_id": "ChIJ5z8AjFNxhlQRo7fl4-0WKDQ",
+					"plus_code": {
+						"compound_code": "7VGR+HJ Vancouver, BC, Canada",
+						"global_code": "84XR7VGR+HJ"
+					},
+					"types": [
+						"establishment",
+						"parking",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - train station",
+		"inputs": {
+			"address": "Coquitlam Central Station"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam Central",
+							"short_name": "Coquitlam Central",
+							"types": [
+								"establishment",
+								"point_of_interest",
+								"train_station",
+								"transit_station"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3C",
+							"short_name": "V3C",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam Central, Coquitlam, BC V3C, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.27392750000001,
+							"lng": -122.8001156
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.27527648029151,
+								"lng": -122.7987666197085
+							},
+							"southwest": {
+								"lat": 49.27257851970851,
+								"lng": -122.8014645802915
+							}
+						}
+					},
+					"place_id": "ChIJkS6QQsp4hlQRRGMlf3CyOkc",
+					"plus_code": {
+						"compound_code": "75FX+HX Coquitlam, BC, Canada",
+						"global_code": "84XV75FX+HX"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"train_station",
+						"transit_station"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding type testing - transit station",
+		"inputs": {
+			"address": "Dapinglin Station"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Dapinglin Station",
+							"short_name": "Dapinglin Station",
+							"types": [
+								"establishment",
+								"point_of_interest",
+								"subway_station",
+								"transit_station"
+							]
+						},
+						{
+							"long_name": "190",
+							"short_name": "190",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "北新路3段",
+							"short_name": "北新路3段",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Xindian District",
+							"short_name": "Xindian District",
+							"types": [
+								"administrative_area_level_3",
+								"political"
+							]
+						},
+						{
+							"long_name": "New Taipei City",
+							"short_name": "New Taipei City",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Taiwan",
+							"short_name": "TW",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "23143",
+							"short_name": "23143",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Dapinglin Station, No. 190北新路3段 Xindian District, New Taipei City, Taiwan 23143",
+					"geometry": {
+						"location": {
+							"lat": 24.982899,
+							"lng": 121.541351
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 24.9842479802915,
+								"lng": 121.5426999802915
+							},
+							"southwest": {
+								"lat": 24.9815500197085,
+								"lng": 121.5400020197085
+							}
+						}
+					},
+					"place_id": "ChIJYwiMQPkBaDQRNpwrYbK82rg",
+					"plus_code": {
+						"compound_code": "XGMR+5G Xindian District, New Taipei City, Taiwan",
+						"global_code": "7QP3XGMR+5G"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"subway_station",
+						"transit_station"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address that gives multiple results",
+		"inputs": {
+			"address": "Crystal Fall"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3E",
+							"short_name": "V3E",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3E, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.3185526,
+							"lng": -122.7662974
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3199015802915,
+								"lng": -122.7649484197085
+							},
+							"southwest": {
+								"lat": 49.3172036197085,
+								"lng": -122.7676463802915
+							}
+						}
+					},
+					"place_id": "ChIJq1Y4yll-hlQRmjIPyXotiEU",
+					"plus_code": {
+						"compound_code": "869M+CF Coquitlam, BC, Canada",
+						"global_code": "84XV869M+CF"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Crystal Falls",
+							"short_name": "Crystal Falls",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Iron County",
+							"short_name": "Iron County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Michigan",
+							"short_name": "MI",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "49920",
+							"short_name": "49920",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Crystal Falls, MI 49920, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						},
+						"location": {
+							"lat": 46.0980066,
+							"lng": -88.3340242
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						}
+					},
+					"place_id": "ChIJpW4h6gzaU00RCe5SUNucTgg",
+					"types": [
+						"locality",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address with components filter - postal code",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "postal_code:49920"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Crystal Falls",
+							"short_name": "Crystal Falls",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Iron County",
+							"short_name": "Iron County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Michigan",
+							"short_name": "MI",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "49920",
+							"short_name": "49920",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Crystal Falls, MI 49920, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						},
+						"location": {
+							"lat": 46.0980066,
+							"lng": -88.3340242
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						}
+					},
+					"place_id": "ChIJpW4h6gzaU00RCe5SUNucTgg",
+					"types": [
+						"locality",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address with components filter - postal code using postal code prefix",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "postal_code:V3E"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Crystal Falls Trail",
+							"short_name": "Crystal Falls Trail",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3E",
+							"short_name": "V3E",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						}
+					],
+					"formatted_address": "Crystal Falls Trail, Coquitlam, BC V3E, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.3185307,
+								"lng": -122.7654475
+							},
+							"southwest": {
+								"lat": 49.3049115,
+								"lng": -122.7734236
+							}
+						},
+						"location": {
+							"lat": 49.3117166,
+							"lng": -122.7697944
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3185307,
+								"lng": -122.7654475
+							},
+							"southwest": {
+								"lat": 49.3049115,
+								"lng": -122.7734236
+							}
+						}
+					},
+					"place_id": "ChIJjU5zo_5-hlQRUoaVsH8Hiak",
+					"types": [
+						"route"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address with components filter - country",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "country:ca"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Crystal Falls",
+							"short_name": "Crystal Falls",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Nipissing District",
+							"short_name": "Nipissing District",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Ontario",
+							"short_name": "ON",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "P0H 1L0",
+							"short_name": "P0H 1L0",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Crystal Falls, ON P0H 1L0, Canada",
+					"geometry": {
+						"location": {
+							"lat": 46.45738,
+							"lng": -79.88947499999999
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 46.4650661,
+								"lng": -79.8734676
+							},
+							"southwest": {
+								"lat": 46.4496928,
+								"lng": -79.9054824
+							}
+						}
+					},
+					"place_id": "ChIJC8V9FQfcKE0RfAAA0h6Xp9c",
+					"types": [
+						"locality",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address with components filter - route (not enforced)",
+		"inputs": {
+			"address": "Hilton Hotel",
+			"components": "route:Southwest Frank Phillips Boulevard"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "205",
+							"short_name": "205",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Southwest Frank Phillips Boulevard",
+							"short_name": "SW Frank Phillips Blvd",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Bartlesville",
+							"short_name": "Bartlesville",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Washington County",
+							"short_name": "Washington County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Oklahoma",
+							"short_name": "OK",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "74003",
+							"short_name": "74003",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "205 SW Frank Phillips Blvd, Bartlesville, OK 74003, USA",
+					"geometry": {
+						"location": {
+							"lat": 36.7506946,
+							"lng": -95.9794043
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 36.75204358029149,
+								"lng": -95.97805531970849
+							},
+							"southwest": {
+								"lat": 36.74934561970849,
+								"lng": -95.98075328029151
+							}
+						}
+					},
+					"place_id": "ChIJ7ftvF4YTt4cR1g5o9GNtO_w",
+					"plus_code": {
+						"compound_code": "Q22C+76 Bartlesville, OK, USA",
+						"global_code": "8686Q22C+76"
+					},
+					"types": [
+						"establishment",
+						"lodging",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address with components filter - locality (not enforced)",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "locality:Coquitlam"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3E",
+							"short_name": "V3E",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3E, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.3185526,
+							"lng": -122.7662974
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3199015802915,
+								"lng": -122.7649484197085
+							},
+							"southwest": {
+								"lat": 49.3172036197085,
+								"lng": -122.7676463802915
+							}
+						}
+					},
+					"place_id": "ChIJq1Y4yll-hlQRmjIPyXotiEU",
+					"plus_code": {
+						"compound_code": "869M+CF Coquitlam, BC, Canada",
+						"global_code": "84XV869M+CF"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Crystal Falls",
+							"short_name": "Crystal Falls",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Iron County",
+							"short_name": "Iron County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Michigan",
+							"short_name": "MI",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "49920",
+							"short_name": "49920",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Crystal Falls, MI 49920, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						},
+						"location": {
+							"lat": 46.0980066,
+							"lng": -88.3340242
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						}
+					},
+					"place_id": "ChIJpW4h6gzaU00RCe5SUNucTgg",
+					"types": [
+						"locality",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding address with components filter - administrative area (not enforced)",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "administrative_area:Michigan"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3E",
+							"short_name": "V3E",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3E, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.3185526,
+							"lng": -122.7662974
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3199015802915,
+								"lng": -122.7649484197085
+							},
+							"southwest": {
+								"lat": 49.3172036197085,
+								"lng": -122.7676463802915
+							}
+						}
+					},
+					"place_id": "ChIJq1Y4yll-hlQRmjIPyXotiEU",
+					"plus_code": {
+						"compound_code": "869M+CF Coquitlam, BC, Canada",
+						"global_code": "84XV869M+CF"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Crystal Falls",
+							"short_name": "Crystal Falls",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Iron County",
+							"short_name": "Iron County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Michigan",
+							"short_name": "MI",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "49920",
+							"short_name": "49920",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Crystal Falls, MI 49920, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						},
+						"location": {
+							"lat": 46.0980066,
+							"lng": -88.3340242
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 46.112319,
+								"lng": -88.3048981
+							},
+							"southwest": {
+								"lat": 46.072299,
+								"lng": -88.35754
+							}
+						}
+					},
+					"place_id": "ChIJpW4h6gzaU00RCe5SUNucTgg",
+					"types": [
+						"locality",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Zero result - Invalid address",
+		"inputs": {
+			"address": "ot54hu"
+		},
+		"expected": {
+			"status": "ZERO_RESULTS",
+			"results": []
+		}
+	},
+	{
+		"testDescription": "Zero result - filtered by components",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "country:au|postal_code:V3E"
+		},
+		"expected": {
+			"status": "ZERO_RESULTS",
+			"results": []
+		}
+	},
+	{
+		"testDescription": "Geocoding with unicode language input",
+		"inputs": {
+			"address": "香港迪士尼樂園"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Lantau Island",
+							"short_name": "Lantau Island",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "New Territories",
+							"short_name": "New Territories",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Hong Kong",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Lantau Island, Hong Kong",
+					"geometry": {
+						"location": {
+							"lat": 22.3129666,
+							"lng": 114.0412819
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 22.3143155802915,
+								"lng": 114.0426308802915
+							},
+							"southwest": {
+								"lat": 22.3116176197085,
+								"lng": 114.0399329197085
+							}
+						}
+					},
+					"place_id": "ChIJPZXTUy_8AzQRBVRH5GyvszU",
+					"plus_code": {
+						"compound_code": "827R+5G Lantau Island, Hong Kong",
+						"global_code": "7PJP827R+5G"
+					},
+					"types": [
+						"amusement_park",
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding with non-latin language input",
+		"inputs": {
+			"address": "इंदिरा%20गांधी%20अन्तर्राष्ट्रीय%20विमानक्षेत्र"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Indira Gandhi International Airport",
+							"short_name": "Indira Gandhi International Airport",
+							"types": [
+								"airport",
+								"establishment",
+								"point_of_interest"
+							]
+						},
+						{
+							"long_name": "New Delhi",
+							"short_name": "New Delhi",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Delhi",
+							"short_name": "DL",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "India",
+							"short_name": "IN",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "110037",
+							"short_name": "110037",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Indira Gandhi International Airport (DEL), New Delhi, Delhi 110037, India",
+					"geometry": {
+						"location": {
+							"lat": 28.5561624,
+							"lng": 77.0999578
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 28.5575113802915,
+								"lng": 77.10130678029151
+							},
+							"southwest": {
+								"lat": 28.55481341970849,
+								"lng": 77.0986088197085
+							}
+						}
+					},
+					"place_id": "ChIJiS0q_IUbDTkRne1DLBh2874",
+					"plus_code": {
+						"compound_code": "H34X+FX New Delhi, दिल्ली, India",
+						"global_code": "7JWVH34X+FX"
+					},
+					"types": [
+						"airport",
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Geocoding with non-latin language input",
+		"inputs": {
+			"address": "इंदिरा%20गांधी%20अन्तर्राष्ट्रीय%20विमानक्षेत्र"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Indira Gandhi International Airport",
+							"short_name": "Indira Gandhi International Airport",
+							"types": [
+								"airport",
+								"establishment",
+								"point_of_interest"
+							]
+						},
+						{
+							"long_name": "New Delhi",
+							"short_name": "New Delhi",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Delhi",
+							"short_name": "DL",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "India",
+							"short_name": "IN",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "110037",
+							"short_name": "110037",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Indira Gandhi International Airport (DEL), New Delhi, Delhi 110037, India",
+					"geometry": {
+						"location": {
+							"lat": 28.5561624,
+							"lng": 77.0999578
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 28.5575113802915,
+								"lng": 77.10130678029151
+							},
+							"southwest": {
+								"lat": 28.55481341970849,
+								"lng": 77.0986088197085
+							}
+						}
+					},
+					"place_id": "ChIJiS0q_IUbDTkRne1DLBh2874",
+					"plus_code": {
+						"compound_code": "H34X+FX New Delhi, दिल्ली, India",
+						"global_code": "7JWVH34X+FX"
+					},
+					"types": [
+						"airport",
+						"establishment",
+						"point_of_interest"
+					]
+				}
+			]
+		}
+	}	
+]

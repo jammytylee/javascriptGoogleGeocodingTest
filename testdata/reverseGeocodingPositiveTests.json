@@ -1,0 +1,6406 @@
+[
+	{
+		"testDescription": "Reverse geocoding a street address",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Como Lake Ave @ Linton St",
+							"short_name": "Como Lake Ave @ Linton St",
+							"types": [
+								"establishment",
+								"point_of_interest",
+								"transit_station"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3R2",
+							"short_name": "V3J 3R2",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Como Lake Ave @ Linton St, Coquitlam, BC V3J 3R2, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.263447,
+							"lng": -122.8417841
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2647959802915,
+								"lng": -122.8404351197085
+							},
+							"southwest": {
+								"lat": 49.2620980197085,
+								"lng": -122.8431330802915
+							}
+						}
+					},
+					"place_id": "ChIJTcfIFPJ4hlQRUaamQXkuxLs",
+					"plus_code": {
+						"compound_code": "7575+97 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+97"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"transit_station"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1862",
+							"short_name": "1862",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1862 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2631244,
+							"lng": -122.841683
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644733802915,
+								"lng": -122.8403340197085
+							},
+							"southwest": {
+								"lat": 49.2617754197085,
+								"lng": -122.8430319802915
+							}
+						}
+					},
+					"place_id": "ChIJI4ghavJ4hlQRUtz86kxUkcw",
+					"plus_code": {
+						"compound_code": "7575+68 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+68"
+					},
+					"types": [
+						"street_address"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2631956,
+								"lng": -122.8418757
+							},
+							"southwest": {
+								"lat": 49.2630954,
+								"lng": -122.8420627
+							}
+						},
+						"location": {
+							"lat": 49.2631543,
+							"lng": -122.8419542
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644944802915,
+								"lng": -122.8406202197085
+							},
+							"southwest": {
+								"lat": 49.2617965197085,
+								"lng": -122.8433181802915
+							}
+						}
+					},
+					"place_id": "ChIJqe3OQfJ4hlQRUhTahDyMC70",
+					"types": [
+						"premise"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1841",
+							"short_name": "1841",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Grover Avenue",
+							"short_name": "Grover Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3G7",
+							"short_name": "V3J 3G7",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1841 Grover Ave, Coquitlam, BC V3J 3G7, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2627526,
+							"lng": -122.8419647
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.26410158029149,
+								"lng": -122.8406157197085
+							},
+							"southwest": {
+								"lat": 49.2614036197085,
+								"lng": -122.8433136802915
+							}
+						}
+					},
+					"place_id": "ChIJPbVZwWNxhlQR2_pNmTmZjVA",
+					"plus_code": {
+						"compound_code": "7575+46 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+46"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2633328,
+							"lng": -122.8419488
+						},
+						"location_type": "RANGE_INTERPOLATED",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646817802915,
+								"lng": -122.8405998197085
+							},
+							"southwest": {
+								"lat": 49.2619838197085,
+								"lng": -122.8432977802915
+							}
+						}
+					},
+					"place_id": "EjExODU2IENvbW8gTGFrZSBBdmUsIENvcXVpdGxhbSwgQkMgVjNKIDNQOCwgQ2FuYWRhIhsSGQoUChIJ10poa_J4hlQR_MV-xyD5kwAQwA4",
+					"types": [
+						"street_address"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1844-1898",
+							"short_name": "1844-1898",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1844-1898 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.263338,
+								"lng": -122.8408438
+							},
+							"southwest": {
+								"lat": 49.2633184,
+								"lng": -122.8423505
+							}
+						},
+						"location": {
+							"lat": 49.2633282,
+							"lng": -122.8415971
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646771802915,
+								"lng": -122.8402481697085
+							},
+							"southwest": {
+								"lat": 49.2619792197085,
+								"lng": -122.8429461302915
+							}
+						}
+					},
+					"place_id": "ChIJ10poa_J4hlQR_MV-xyD5kwA",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2634091,
+								"lng": -122.8408341
+							},
+							"southwest": {
+								"lat": 49.262951,
+								"lng": -122.8460131
+							}
+						},
+						"location": {
+							"lat": 49.2632048,
+							"lng": -122.8440873
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.26452903029151,
+								"lng": -122.8408341
+							},
+							"southwest": {
+								"lat": 49.261831069708509,
+								"lng": -122.8460131
+							}
+						}
+					},
+					"place_id": "ChIJfZ8nN_J4hlQR9snCKyBL_Kw",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "V3J",
+							"short_name": "V3J",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						},
+						{
+							"long_name": "Burnaby",
+							"short_name": "Burnaby",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Burnaby, BC V3J, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.289904,
+								"lng": -122.81556
+							},
+							"southwest": {
+								"lat": 49.2459429,
+								"lng": -122.9311211
+							}
+						},
+						"location": {
+							"lat": 49.2581338,
+							"lng": -122.8627441
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.289904,
+								"lng": -122.81556
+							},
+							"southwest": {
+								"lat": 49.2459429,
+								"lng": -122.9311211
+							}
+						}
+					},
+					"place_id": "ChIJKROdaVR4hlQRYjYDJL30agQ",
+					"postcode_localities": [
+						"Burnaby",
+						"Coquitlam"
+					],
+					"types": [
+						"postal_code",
+						"postal_code_prefix"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						},
+						"location": {
+							"lat": 49.2837626,
+							"lng": -122.7932065
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						}
+					},
+					"place_id": "ChIJn17CWsh4hlQRz3buLnZoV1k",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Metro Vancouver, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						},
+						"location": {
+							"lat": 49.2501243,
+							"lng": -123.0824217
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						}
+					},
+					"place_id": "ChIJpd_5BZDOYlQRpvz0npdsnM4",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "British Columbia, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						},
+						"location": {
+							"lat": 53.7266683,
+							"lng": -127.6476205
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						}
+					},
+					"place_id": "ChIJr2prqsdmelMR-fHnN-lBG4g",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						},
+						"location": {
+							"lat": 56.130366,
+							"lng": -106.346771
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						}
+					},
+					"place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "7575+86",
+							"short_name": "7575+86",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "7575+86 Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.263375,
+								"lng": -122.841875
+							},
+							"southwest": {
+								"lat": 49.26325000000001,
+								"lng": -122.842
+							}
+						},
+						"location": {
+							"lat": 49.2633182,
+							"lng": -122.8419405
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646614802915,
+								"lng": -122.8405885197085
+							},
+							"southwest": {
+								"lat": 49.2619635197085,
+								"lng": -122.8432864802915
+							}
+						}
+					},
+					"place_id": "GhIJhrgoabShSEARYitoWuK1XsA",
+					"plus_code": {
+						"compound_code": "7575+86 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+86"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address with unicode language output",
+		"inputs": {
+			"latlng": "22.279496861134557,114.17382493655717",
+			"language": "zh-HK"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "75HF+QG 香港灣仔",
+				"global_code": "7PJP75HF+QG"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "中環廣場",
+							"short_name": "中環廣場",
+							"types": [
+								"premise"
+							]
+						},
+						{
+							"long_name": "18",
+							"short_name": "18",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "港灣道",
+							"short_name": "港灣道",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "灣仔",
+							"short_name": "灣仔",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港灣仔港灣道18號中環廣場",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.2799869,
+								"lng": 114.1739563
+							},
+							"southwest": {
+								"lat": 22.279514,
+								"lng": 114.1733804
+							}
+						},
+						"location": {
+							"lat": 22.2798732,
+							"lng": 114.173727
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 22.2810994302915,
+								"lng": 114.1750173302915
+							},
+							"southwest": {
+								"lat": 22.27840146970849,
+								"lng": 114.1723193697085
+							}
+						}
+					},
+					"place_id": "ChIJlVi0AFwABDQRhia9RXihqEQ",
+					"types": [
+						"premise"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "106",
+							"short_name": "106",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "告士打道",
+							"short_name": "告士打道",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "灣仔",
+							"short_name": "灣仔",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港灣仔告士打道106號",
+					"geometry": {
+						"location": {
+							"lat": 22.2791727,
+							"lng": 114.173826
+						},
+						"location_type": "RANGE_INTERPOLATED",
+						"viewport": {
+							"northeast": {
+								"lat": 22.2805216802915,
+								"lng": 114.1751749802915
+							},
+							"southwest": {
+								"lat": 22.2778237197085,
+								"lng": 114.1724770197085
+							}
+						}
+					},
+					"place_id": "EiYxMDYgR2xvdWNlc3RlciBSZCwgV2FuIENoYWksIEhvbmcgS29uZyIaEhgKFAoSCQ32aPVbAAQ0Ebuwh6xoihUUEGo",
+					"types": [
+						"street_address"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "告士打道",
+							"short_name": "告士打道",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "灣仔",
+							"short_name": "灣仔",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港灣仔告士打道",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.2795921,
+								"lng": 114.1751762
+							},
+							"southwest": {
+								"lat": 22.2793997,
+								"lng": 114.1733176
+							}
+						},
+						"location": {
+							"lat": 22.2795007,
+							"lng": 114.1742463
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 22.2808448802915,
+								"lng": 114.1755958802915
+							},
+							"southwest": {
+								"lat": 22.2781469197085,
+								"lng": 114.1728979197085
+							}
+						}
+					},
+					"place_id": "ChIJwW7V8VsABDQRKpCcR5Gv8WQ",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "灣仔",
+							"short_name": "灣仔",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港灣仔",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.2853401,
+								"lng": 114.1812819
+							},
+							"southwest": {
+								"lat": 22.2693399,
+								"lng": 114.1667239
+							}
+						},
+						"location": {
+							"lat": 22.276022,
+							"lng": 114.1751471
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 22.2853401,
+								"lng": 114.1812819
+							},
+							"southwest": {
+								"lat": 22.2693399,
+								"lng": 114.1667239
+							}
+						}
+					},
+					"place_id": "ChIJef5hflsABDQR7tjDNeZxJSQ",
+					"types": [
+						"neighborhood",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "灣仔區",
+							"short_name": "灣仔區",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港灣仔區",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.28822,
+								"lng": 114.1980559
+							},
+							"southwest": {
+								"lat": 22.259661,
+								"lng": 114.1664101
+							}
+						},
+						"location": {
+							"lat": 22.2762468,
+							"lng": 114.1825781
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 22.28822,
+								"lng": 114.1980559
+							},
+							"southwest": {
+								"lat": 22.259661,
+								"lng": 114.1664101
+							}
+						}
+					},
+					"place_id": "ChIJ2UpdQ0wABDQRZhqulEhSDm4",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港香港島",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.294839,
+								"lng": 114.2613181
+							},
+							"southwest": {
+								"lat": 22.194121,
+								"lng": 114.110793
+							}
+						},
+						"location": {
+							"lat": 22.2824673,
+							"lng": 114.1615726
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 22.294839,
+								"lng": 114.2613181
+							},
+							"southwest": {
+								"lat": 22.194121,
+								"lng": 114.110793
+							}
+						}
+					},
+					"place_id": "ChIJsWdv64D_AzQRXYlqIQ0ZP6Y",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "香港",
+							"short_name": "香港",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.561968,
+								"lng": 114.4294999
+							},
+							"southwest": {
+								"lat": 22.1435,
+								"lng": 113.8259001
+							}
+						},
+						"location": {
+							"lat": 22.3192011,
+							"lng": 114.1696121
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 22.561968,
+								"lng": 114.4294999
+							},
+							"southwest": {
+								"lat": 22.1435,
+								"lng": 113.8259001
+							}
+						}
+					},
+					"place_id": "ChIJByjqov3-AzQR2pT0dDW0bUg",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "香港",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.5619469,
+								"lng": 114.4294999
+							},
+							"southwest": {
+								"lat": 22.1435,
+								"lng": 113.8259001
+							}
+						},
+						"location": {
+							"lat": 22.3193039,
+							"lng": 114.1693611
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 22.5619469,
+								"lng": 114.4294999
+							},
+							"southwest": {
+								"lat": 22.1435,
+								"lng": 113.8259001
+							}
+						}
+					},
+					"place_id": "ChIJD5gyo-3iAzQRfMnq27qzivA",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "75HF+QG",
+							"short_name": "75HF+QG",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "灣仔",
+							"short_name": "灣仔",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港島",
+							"short_name": "香港島",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "香港",
+							"short_name": "HK",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "75HF+QG 香港灣仔",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 22.2795,
+								"lng": 114.173875
+							},
+							"southwest": {
+								"lat": 22.279375,
+								"lng": 114.17375
+							}
+						},
+						"location": {
+							"lat": 22.2794969,
+							"lng": 114.1738249
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 22.2807864802915,
+								"lng": 114.1751614802915
+							},
+							"southwest": {
+								"lat": 22.27808851970849,
+								"lng": 114.1724635197085
+							}
+						}
+					},
+					"place_id": "GhIJWNXcG41HNkARwC558h-LXEA",
+					"plus_code": {
+						"compound_code": "75HF+QG 香港灣仔",
+						"global_code": "7PJP75HF+QG"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - single result type filter with single result",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "premise"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2631956,
+								"lng": -122.8418757
+							},
+							"southwest": {
+								"lat": 49.2630954,
+								"lng": -122.8420627
+							}
+						},
+						"location": {
+							"lat": 49.2631543,
+							"lng": -122.8419542
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644944802915,
+								"lng": -122.8406202197085
+							},
+							"southwest": {
+								"lat": 49.2617965197085,
+								"lng": -122.8433181802915
+							}
+						}
+					},
+					"place_id": "ChIJqe3OQfJ4hlQRUhTahDyMC70",
+					"types": [
+						"premise"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - single result type filter with multiple results",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "political"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						},
+						"location": {
+							"lat": 49.2837626,
+							"lng": -122.7932065
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						}
+					},
+					"place_id": "ChIJn17CWsh4hlQRz3buLnZoV1k",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Metro Vancouver, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						},
+						"location": {
+							"lat": 49.2501243,
+							"lng": -123.0824217
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						}
+					},
+					"place_id": "ChIJpd_5BZDOYlQRpvz0npdsnM4",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "British Columbia, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						},
+						"location": {
+							"lat": 53.7266683,
+							"lng": -127.6476205
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						}
+					},
+					"place_id": "ChIJr2prqsdmelMR-fHnN-lBG4g",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						},
+						"location": {
+							"lat": 56.130366,
+							"lng": -106.346771
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						}
+					},
+					"place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - single result type filter with no result",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "colloquial_area"
+		},
+		"expected": {
+			"status": "ZERO_RESULTS",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": []
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - multiple result type filters with single result",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "premise|subpremise"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2631956,
+								"lng": -122.8418757
+							},
+							"southwest": {
+								"lat": 49.2630954,
+								"lng": -122.8420627
+							}
+						},
+						"location": {
+							"lat": 49.2631543,
+							"lng": -122.8419542
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644944802915,
+								"lng": -122.8406202197085
+							},
+							"southwest": {
+								"lat": 49.2617965197085,
+								"lng": -122.8433181802915
+							}
+						}
+					},
+					"place_id": "ChIJqe3OQfJ4hlQRUhTahDyMC70",
+					"types": [
+						"premise"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - multiple result type filters with multiple results",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "premise|subpremise|street_address"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1862",
+							"short_name": "1862",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1862 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2631244,
+							"lng": -122.841683
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644733802915,
+								"lng": -122.8403340197085
+							},
+							"southwest": {
+								"lat": 49.2617754197085,
+								"lng": -122.8430319802915
+							}
+						}
+					},
+					"place_id": "ChIJI4ghavJ4hlQRUtz86kxUkcw",
+					"plus_code": {
+						"compound_code": "7575+68 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+68"
+					},
+					"types": [
+						"street_address"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2631956,
+								"lng": -122.8418757
+							},
+							"southwest": {
+								"lat": 49.2630954,
+								"lng": -122.8420627
+							}
+						},
+						"location": {
+							"lat": 49.2631543,
+							"lng": -122.8419542
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644944802915,
+								"lng": -122.8406202197085
+							},
+							"southwest": {
+								"lat": 49.2617965197085,
+								"lng": -122.8433181802915
+							}
+						}
+					},
+					"place_id": "ChIJqe3OQfJ4hlQRUhTahDyMC70",
+					"types": [
+						"premise"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2633328,
+							"lng": -122.8419488
+						},
+						"location_type": "RANGE_INTERPOLATED",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646817802915,
+								"lng": -122.8405998197085
+							},
+							"southwest": {
+								"lat": 49.2619838197085,
+								"lng": -122.8432977802915
+							}
+						}
+					},
+					"place_id": "EjExODU2IENvbW8gTGFrZSBBdmUsIENvcXVpdGxhbSwgQkMgVjNKIDNQOCwgQ2FuYWRhIhsSGQoUChIJ10poa_J4hlQR_MV-xyD5kwAQwA4",
+					"types": [
+						"street_address"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - multiple result type filters with no result",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "subpremise|airport"
+		},
+		"expected": {
+			"status": "ZERO_RESULTS",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": []
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - ROOFTOP location type filter",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"location_type": "ROOFTOP"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1862",
+							"short_name": "1862",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1862 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2631244,
+							"lng": -122.841683
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644733802915,
+								"lng": -122.8403340197085
+							},
+							"southwest": {
+								"lat": 49.2617754197085,
+								"lng": -122.8430319802915
+							}
+						}
+					},
+					"place_id": "ChIJI4ghavJ4hlQRUtz86kxUkcw",
+					"plus_code": {
+						"compound_code": "7575+68 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+68"
+					},
+					"types": [
+						"street_address"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2631956,
+								"lng": -122.8418757
+							},
+							"southwest": {
+								"lat": 49.2630954,
+								"lng": -122.8420627
+							}
+						},
+						"location": {
+							"lat": 49.2631543,
+							"lng": -122.8419542
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644944802915,
+								"lng": -122.8406202197085
+							},
+							"southwest": {
+								"lat": 49.2617965197085,
+								"lng": -122.8433181802915
+							}
+						}
+					},
+					"place_id": "ChIJqe3OQfJ4hlQRUhTahDyMC70",
+					"types": [
+						"premise"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1841",
+							"short_name": "1841",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Grover Avenue",
+							"short_name": "Grover Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3G7",
+							"short_name": "V3J 3G7",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1841 Grover Ave, Coquitlam, BC V3J 3G7, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2627526,
+							"lng": -122.8419647
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.26410158029149,
+								"lng": -122.8406157197085
+							},
+							"southwest": {
+								"lat": 49.2614036197085,
+								"lng": -122.8433136802915
+							}
+						}
+					},
+					"place_id": "ChIJPbVZwWNxhlQR2_pNmTmZjVA",
+					"plus_code": {
+						"compound_code": "7575+46 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+46"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "7575+86",
+							"short_name": "7575+86",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "7575+86 Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.263375,
+								"lng": -122.841875
+							},
+							"southwest": {
+								"lat": 49.26325000000001,
+								"lng": -122.842
+							}
+						},
+						"location": {
+							"lat": 49.2633182,
+							"lng": -122.8419405
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646614802915,
+								"lng": -122.8405885197085
+							},
+							"southwest": {
+								"lat": 49.2619635197085,
+								"lng": -122.8432864802915
+							}
+						}
+					},
+					"place_id": "GhIJhrgoabShSEARYitoWuK1XsA",
+					"plus_code": {
+						"compound_code": "7575+86 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+86"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - RANGE_INTERPOLATED location type filter",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"location_type": "RANGE_INTERPOLATED"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2633328,
+							"lng": -122.8419488
+						},
+						"location_type": "RANGE_INTERPOLATED",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646817802915,
+								"lng": -122.8405998197085
+							},
+							"southwest": {
+								"lat": 49.2619838197085,
+								"lng": -122.8432977802915
+							}
+						}
+					},
+					"place_id": "EjExODU2IENvbW8gTGFrZSBBdmUsIENvcXVpdGxhbSwgQkMgVjNKIDNQOCwgQ2FuYWRhIhsSGQoUChIJ10poa_J4hlQR_MV-xyD5kwAQwA4",
+					"types": [
+						"street_address"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - GEOMETRIC_CENTER location type filter",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"location_type": "GEOMETRIC_CENTER"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Como Lake Ave @ Linton St",
+							"short_name": "Como Lake Ave @ Linton St",
+							"types": [
+								"establishment",
+								"point_of_interest",
+								"transit_station"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3R2",
+							"short_name": "V3J 3R2",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Como Lake Ave @ Linton St, Coquitlam, BC V3J 3R2, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.263447,
+							"lng": -122.8417841
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2647959802915,
+								"lng": -122.8404351197085
+							},
+							"southwest": {
+								"lat": 49.2620980197085,
+								"lng": -122.8431330802915
+							}
+						}
+					},
+					"place_id": "ChIJTcfIFPJ4hlQRUaamQXkuxLs",
+					"plus_code": {
+						"compound_code": "7575+97 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+97"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"transit_station"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1844-1898",
+							"short_name": "1844-1898",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1844-1898 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.263338,
+								"lng": -122.8408438
+							},
+							"southwest": {
+								"lat": 49.2633184,
+								"lng": -122.8423505
+							}
+						},
+						"location": {
+							"lat": 49.2633282,
+							"lng": -122.8415971
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646771802915,
+								"lng": -122.8402481697085
+							},
+							"southwest": {
+								"lat": 49.2619792197085,
+								"lng": -122.8429461302915
+							}
+						}
+					},
+					"place_id": "ChIJ10poa_J4hlQR_MV-xyD5kwA",
+					"types": [
+						"route"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - APPROXIMATE location type filter",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"location_type": "APPROXIMATE"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2634091,
+								"lng": -122.8408341
+							},
+							"southwest": {
+								"lat": 49.262951,
+								"lng": -122.8460131
+							}
+						},
+						"location": {
+							"lat": 49.2632048,
+							"lng": -122.8440873
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.26452903029151,
+								"lng": -122.8408341
+							},
+							"southwest": {
+								"lat": 49.261831069708509,
+								"lng": -122.8460131
+							}
+						}
+					},
+					"place_id": "ChIJfZ8nN_J4hlQR9snCKyBL_Kw",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "V3J",
+							"short_name": "V3J",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						},
+						{
+							"long_name": "Burnaby",
+							"short_name": "Burnaby",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Burnaby, BC V3J, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.289904,
+								"lng": -122.81556
+							},
+							"southwest": {
+								"lat": 49.2459429,
+								"lng": -122.9311211
+							}
+						},
+						"location": {
+							"lat": 49.2581338,
+							"lng": -122.8627441
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.289904,
+								"lng": -122.81556
+							},
+							"southwest": {
+								"lat": 49.2459429,
+								"lng": -122.9311211
+							}
+						}
+					},
+					"place_id": "ChIJKROdaVR4hlQRYjYDJL30agQ",
+					"postcode_localities": [
+						"Burnaby",
+						"Coquitlam"
+					],
+					"types": [
+						"postal_code",
+						"postal_code_prefix"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						},
+						"location": {
+							"lat": 49.2837626,
+							"lng": -122.7932065
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						}
+					},
+					"place_id": "ChIJn17CWsh4hlQRz3buLnZoV1k",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Metro Vancouver, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						},
+						"location": {
+							"lat": 49.2501243,
+							"lng": -123.0824217
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						}
+					},
+					"place_id": "ChIJpd_5BZDOYlQRpvz0npdsnM4",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "British Columbia, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						},
+						"location": {
+							"lat": 53.7266683,
+							"lng": -127.6476205
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						}
+					},
+					"place_id": "ChIJr2prqsdmelMR-fHnN-lBG4g",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						},
+						"location": {
+							"lat": 56.130366,
+							"lng": -106.346771
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						}
+					},
+					"place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - multiple location type filters",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"location_type": "APPROXIMATE|ROOFTOP"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "1862",
+							"short_name": "1862",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1862 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2631244,
+							"lng": -122.841683
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644733802915,
+								"lng": -122.8403340197085
+							},
+							"southwest": {
+								"lat": 49.2617754197085,
+								"lng": -122.8430319802915
+							}
+						}
+					},
+					"place_id": "ChIJI4ghavJ4hlQRUtz86kxUkcw",
+					"plus_code": {
+						"compound_code": "7575+68 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+68"
+					},
+					"types": [
+						"street_address"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1856",
+							"short_name": "1856",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Como Lake Avenue",
+							"short_name": "Como Lake Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1856 Como Lake Ave, Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2631956,
+								"lng": -122.8418757
+							},
+							"southwest": {
+								"lat": 49.2630954,
+								"lng": -122.8420627
+							}
+						},
+						"location": {
+							"lat": 49.2631543,
+							"lng": -122.8419542
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2644944802915,
+								"lng": -122.8406202197085
+							},
+							"southwest": {
+								"lat": 49.2617965197085,
+								"lng": -122.8433181802915
+							}
+						}
+					},
+					"place_id": "ChIJqe3OQfJ4hlQRUhTahDyMC70",
+					"types": [
+						"premise"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "1841",
+							"short_name": "1841",
+							"types": [
+								"street_number"
+							]
+						},
+						{
+							"long_name": "Grover Avenue",
+							"short_name": "Grover Ave",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3J 3G7",
+							"short_name": "V3J 3G7",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "1841 Grover Ave, Coquitlam, BC V3J 3G7, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.2627526,
+							"lng": -122.8419647
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.26410158029149,
+								"lng": -122.8406157197085
+							},
+							"southwest": {
+								"lat": 49.2614036197085,
+								"lng": -122.8433136802915
+							}
+						}
+					},
+					"place_id": "ChIJPbVZwWNxhlQR2_pNmTmZjVA",
+					"plus_code": {
+						"compound_code": "7575+46 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+46"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "V3J 3P8",
+							"short_name": "V3J 3P8",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3J 3P8, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.2634091,
+								"lng": -122.8408341
+							},
+							"southwest": {
+								"lat": 49.262951,
+								"lng": -122.8460131
+							}
+						},
+						"location": {
+							"lat": 49.2632048,
+							"lng": -122.8440873
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.26452903029151,
+								"lng": -122.8408341
+							},
+							"southwest": {
+								"lat": 49.261831069708509,
+								"lng": -122.8460131
+							}
+						}
+					},
+					"place_id": "ChIJfZ8nN_J4hlQR9snCKyBL_Kw",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "V3J",
+							"short_name": "V3J",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						},
+						{
+							"long_name": "Burnaby",
+							"short_name": "Burnaby",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Burnaby, BC V3J, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.289904,
+								"lng": -122.81556
+							},
+							"southwest": {
+								"lat": 49.2459429,
+								"lng": -122.9311211
+							}
+						},
+						"location": {
+							"lat": 49.2581338,
+							"lng": -122.8627441
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.289904,
+								"lng": -122.81556
+							},
+							"southwest": {
+								"lat": 49.2459429,
+								"lng": -122.9311211
+							}
+						}
+					},
+					"place_id": "ChIJKROdaVR4hlQRYjYDJL30agQ",
+					"postcode_localities": [
+						"Burnaby",
+						"Coquitlam"
+					],
+					"types": [
+						"postal_code",
+						"postal_code_prefix"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						},
+						"location": {
+							"lat": 49.2837626,
+							"lng": -122.7932065
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						}
+					},
+					"place_id": "ChIJn17CWsh4hlQRz3buLnZoV1k",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Metro Vancouver, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						},
+						"location": {
+							"lat": 49.2501243,
+							"lng": -123.0824217
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.5745549,
+								"lng": -122.408262
+							},
+							"southwest": {
+								"lat": 49.00205589999999,
+								"lng": -123.6224361
+							}
+						}
+					},
+					"place_id": "ChIJpd_5BZDOYlQRpvz0npdsnM4",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "British Columbia, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						},
+						"location": {
+							"lat": 53.7266683,
+							"lng": -127.6476205
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 60.0001489,
+								"lng": -114.054221
+							},
+							"southwest": {
+								"lat": 48.224556,
+								"lng": -139.0570702
+							}
+						}
+					},
+					"place_id": "ChIJr2prqsdmelMR-fHnN-lBG4g",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						},
+						"location": {
+							"lat": 56.130366,
+							"lng": -106.346771
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 83.6381,
+								"lng": -50.9766
+							},
+							"southwest": {
+								"lat": 41.6765559,
+								"lng": -141.00187
+							}
+						}
+					},
+					"place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "7575+86",
+							"short_name": "7575+86",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "7575+86 Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.263375,
+								"lng": -122.841875
+							},
+							"southwest": {
+								"lat": 49.26325000000001,
+								"lng": -122.842
+							}
+						},
+						"location": {
+							"lat": 49.2633182,
+							"lng": -122.8419405
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 49.2646614802915,
+								"lng": -122.8405885197085
+							},
+							"southwest": {
+								"lat": 49.2619635197085,
+								"lng": -122.8432864802915
+							}
+						}
+					},
+					"place_id": "GhIJhrgoabShSEARYitoWuK1XsA",
+					"plus_code": {
+						"compound_code": "7575+86 Coquitlam, BC, Canada",
+						"global_code": "84XV7575+86"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a street address - using both result type filter and location type filters",
+		"inputs": {
+			"latlng": "49.26331822887301,-122.84194054317001",
+			"result_type": "locality",
+			"location_type": "APPROXIMATE"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "7575+86 Coquitlam, BC, Canada",
+				"global_code": "84XV7575+86"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC, Canada",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						},
+						"location": {
+							"lat": 49.2837626,
+							"lng": -122.7932065
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3515919,
+								"lng": -122.6198391
+							},
+							"southwest": {
+								"lat": 49.218461,
+								"lng": -122.8933441
+							}
+						}
+					},
+					"place_id": "ChIJn17CWsh4hlQRz3buLnZoV1k",
+					"types": [
+						"locality",
+						"political"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding an ocean location",
+		"inputs": {
+			"latlng": "25.290320520149546,-90.03738429883259"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"global_code": "76QF7XR7+42"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Gulf of Mexico",
+							"short_name": "Gulf of Mexico",
+							"types": [
+								"establishment",
+								"natural_feature"
+							]
+						}
+					],
+					"formatted_address": "Gulf of Mexico",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 30.651167,
+								"lng": -81.0533853
+							},
+							"southwest": {
+								"lat": 18.2167323,
+								"lng": -97.85039499999999
+							}
+						},
+						"location": {
+							"lat": 25.304304,
+							"lng": -90.065918
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 30.651167,
+								"lng": -81.0533853
+							},
+							"southwest": {
+								"lat": 18.2167323,
+								"lng": -97.85039499999999
+							}
+						}
+					},
+					"place_id": "ChIJZ5eAdyID8YURUkgJho1nYUA",
+					"types": [
+						"establishment",
+						"natural_feature"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "76QF7XR7+42",
+							"short_name": "76QF7XR7+42",
+							"types": [
+								"plus_code"
+							]
+						}
+					],
+					"formatted_address": "76QF7XR7+42",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 25.290375,
+								"lng": -90.037375
+							},
+							"southwest": {
+								"lat": 25.29025,
+								"lng": -90.0375
+							}
+						},
+						"location": {
+							"lat": 25.2903205,
+							"lng": -90.0373843
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 25.2916614802915,
+								"lng": -90.0360885197085
+							},
+							"southwest": {
+								"lat": 25.2889635197085,
+								"lng": -90.0387864802915
+							}
+						}
+					},
+					"place_id": "GhIJvtu8cVJKOUARkXgegWSCVsA",
+					"plus_code": {
+						"global_code": "76QF7XR7+42"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding an airport",
+		"inputs": {
+			"latlng": "51.505340990830206,0.051670771319778666"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "G342+4M Barking, UK",
+				"global_code": "9F32G342+4M"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "London City Airport",
+							"short_name": "London City Airport",
+							"types": [
+								"airport",
+								"establishment",
+								"point_of_interest"
+							]
+						},
+						{
+							"long_name": "Hartmann Road",
+							"short_name": "Hartmann Rd",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Royal Docks",
+							"short_name": "Royal Docks",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "E16 2PX",
+							"short_name": "E16 2PX",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "London City Airport (LCY), Hartmann Rd, Royal Docks, London E16 2PX, UK",
+					"geometry": {
+						"location": {
+							"lat": 51.5048437,
+							"lng": 0.049518
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5061926802915,
+								"lng": 0.05086698029150204
+							},
+							"southwest": {
+								"lat": 51.5034947197085,
+								"lng": 0.04816901970849797
+							}
+						}
+					},
+					"place_id": "ChIJhza7Doio2EcRSxpLpqDodAc",
+					"plus_code": {
+						"compound_code": "G23X+WR London, UK",
+						"global_code": "9F32G23X+WR"
+					},
+					"types": [
+						"airport",
+						"establishment",
+						"point_of_interest"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "Royal Docks",
+							"short_name": "Royal Docks",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "E16 2PX",
+							"short_name": "E16 2PX",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Departure Lounge, London City Airport, Royal Docks, London E16 2PX, UK",
+					"geometry": {
+						"location": {
+							"lat": 51.5040215,
+							"lng": 0.0500162
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 51.505370480291499,
+								"lng": 0.05136518029150203
+							},
+							"southwest": {
+								"lat": 51.5026725197085,
+								"lng": 0.04866721970849797
+							}
+						}
+					},
+					"place_id": "ChIJjYktKryp2EcR5mVQZphXOZg",
+					"plus_code": {
+						"compound_code": "G332+J2 London, UK",
+						"global_code": "9F32G332+J2"
+					},
+					"types": [
+						"beauty_salon",
+						"establishment",
+						"point_of_interest"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Terminal",
+							"short_name": "Terminal",
+							"types": [
+								"premise"
+							]
+						},
+						{
+							"long_name": "Hartmann Road",
+							"short_name": "Hartmann Rd",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Royal Docks",
+							"short_name": "Royal Docks",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "E16 2PB",
+							"short_name": "E16 2PB",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Terminal, Hartmann Rd, Royal Docks, London E16 2PB, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.5042391,
+								"lng": 0.05232999999999999
+							},
+							"southwest": {
+								"lat": 51.50322569999999,
+								"lng": 0.0451985
+							}
+						},
+						"location": {
+							"lat": 51.50363369999999,
+							"lng": 0.0497384
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5050813802915,
+								"lng": 0.05232999999999999
+							},
+							"southwest": {
+								"lat": 51.5023834197085,
+								"lng": 0.0451985
+							}
+						}
+					},
+					"place_id": "ChIJIbn5bYio2EcRJtWSIoaaKO8",
+					"types": [
+						"premise"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Royal Albert Quay",
+							"short_name": "Royal Albert Quay",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Royal Docks",
+							"short_name": "Royal Docks",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Royal Albert Quay, Royal Docks, London, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.5074025,
+								"lng": 0.0522627
+							},
+							"southwest": {
+								"lat": 51.5073477,
+								"lng": 0.0507385
+							}
+						},
+						"location": {
+							"lat": 51.5073766,
+							"lng": 0.05149459999999999
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5087240802915,
+								"lng": 0.05284958029150203
+							},
+							"southwest": {
+								"lat": 51.5060261197085,
+								"lng": 0.05015161970849797
+							}
+						}
+					},
+					"place_id": "ChIJc8ogjYao2EcR7GG3Zia9Nlg",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "E16 2JX",
+							"short_name": "E16 2JX",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "Royal Docks",
+							"short_name": "Royal Docks",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Royal Docks, London E16 2JX, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.5063302,
+								"lng": 0.0527391
+							},
+							"southwest": {
+								"lat": 51.5033876,
+								"lng": 0.0468602
+							}
+						},
+						"location": {
+							"lat": 51.5051423,
+							"lng": 0.0491273
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5063302,
+								"lng": 0.0527391
+							},
+							"southwest": {
+								"lat": 51.5033876,
+								"lng": 0.0468602
+							}
+						}
+					},
+					"place_id": "ChIJCcNE04eo2EcRch3y7jJswow",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Royal Docks",
+							"short_name": "Royal Docks",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Royal Docks, London, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.5099904,
+								"lng": 0.0815366
+							},
+							"southwest": {
+								"lat": 51.4960037,
+								"lng": 0.007597899999999999
+							}
+						},
+						"location": {
+							"lat": 51.5046082,
+							"lng": 0.0396327
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5099904,
+								"lng": 0.0815366
+							},
+							"southwest": {
+								"lat": 51.4960037,
+								"lng": 0.007597899999999999
+							}
+						}
+					},
+					"place_id": "ChIJj8jqa3uo2EcRFnLq_SD2xZk",
+					"types": [
+						"neighborhood",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "E16",
+							"short_name": "E16",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "London E16, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.5276579,
+								"lng": 0.0806957
+							},
+							"southwest": {
+								"lat": 51.4985276,
+								"lng": -0.0026674
+							}
+						},
+						"location": {
+							"lat": 51.5097478,
+							"lng": 0.0293285
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5276579,
+								"lng": 0.0806957
+							},
+							"southwest": {
+								"lat": 51.4985276,
+								"lng": -0.0026674
+							}
+						}
+					},
+					"place_id": "ChIJnbGLJtSn2EcROa7YyvLKn6U",
+					"types": [
+						"postal_code",
+						"postal_code_prefix"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "London Borough of Newham",
+							"short_name": "London Borough of Newham",
+							"types": [
+								"administrative_area_level_3",
+								"political"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "London Borough of Newham, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.5639889,
+								"lng": 0.0997976
+							},
+							"southwest": {
+								"lat": 51.4960037,
+								"lng": -0.0212642
+							}
+						},
+						"location": {
+							"lat": 51.5255162,
+							"lng": 0.0352163
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.5639889,
+								"lng": 0.0997976
+							},
+							"southwest": {
+								"lat": 51.4960037,
+								"lng": -0.0212642
+							}
+						}
+					},
+					"place_id": "ChIJfRGCus6n2EcRYGfsoi2uDgQ",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "London, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.6723432,
+								"lng": 0.14827099999999999
+							},
+							"southwest": {
+								"lat": 51.38494009999999,
+								"lng": -0.3514683
+							}
+						},
+						"location": {
+							"lat": 51.5073509,
+							"lng": -0.1277583
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.6723432,
+								"lng": 0.14827099999999999
+							},
+							"southwest": {
+								"lat": 51.38494009999999,
+								"lng": -0.3514683
+							}
+						}
+					},
+					"place_id": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "London",
+							"short_name": "London",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "London, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.6723432,
+								"lng": 0.14827099999999999
+							},
+							"southwest": {
+								"lat": 51.38494009999999,
+								"lng": -0.3514683
+							}
+						},
+						"location": {
+							"lat": 51.5569879,
+							"lng": -0.1411791
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.6723432,
+								"lng": 0.14827099999999999
+							},
+							"southwest": {
+								"lat": 51.38494009999999,
+								"lng": -0.3514683
+							}
+						}
+					},
+					"place_id": "ChIJ8_MXt1sbdkgRCrIAOXkukUk",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Greater London, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.6918726,
+								"lng": 0.3339957
+							},
+							"southwest": {
+								"lat": 51.28676,
+								"lng": -0.5103751
+							}
+						},
+						"location": {
+							"lat": 51.4309209,
+							"lng": -0.0936496
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 51.6918726,
+								"lng": 0.3339957
+							},
+							"southwest": {
+								"lat": 51.28676,
+								"lng": -0.5103751
+							}
+						}
+					},
+					"place_id": "ChIJb-IaoQug2EcRi-m4hONz8S8",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "England, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 55.81165979999999,
+								"lng": 1.7629159
+							},
+							"southwest": {
+								"lat": 49.8647411,
+								"lng": -6.4185458
+							}
+						},
+						"location": {
+							"lat": 52.3555177,
+							"lng": -1.1743197
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 55.81165979999999,
+								"lng": 1.7629159
+							},
+							"southwest": {
+								"lat": 49.8647411,
+								"lng": -6.4185458
+							}
+						}
+					},
+					"place_id": "ChIJ39UebIqp0EcRqI4tMyWV4fQ",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Great Britain",
+							"short_name": "Great Britain",
+							"types": [
+								"establishment",
+								"natural_feature"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Great Britain, United Kingdom",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 58.6721945,
+								"lng": 1.7561726
+							},
+							"southwest": {
+								"lat": 49.9588004,
+								"lng": -6.2279292
+							}
+						},
+						"location": {
+							"lat": 53.8337367,
+							"lng": -2.4290148
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 58.6721945,
+								"lng": 1.7561726
+							},
+							"southwest": {
+								"lat": 49.9588004,
+								"lng": -6.2279292
+							}
+						}
+					},
+					"place_id": "ChIJAc8Rblc_YkgRBbyOF5ySMQs",
+					"types": [
+						"establishment",
+						"natural_feature"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "United Kingdom",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 60.91569999999999,
+								"lng": 33.9165549
+							},
+							"southwest": {
+								"lat": 34.5614,
+								"lng": -8.8988999
+							}
+						},
+						"location": {
+							"lat": 55.378051,
+							"lng": -3.435973
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 60.91569999999999,
+								"lng": 33.9165549
+							},
+							"southwest": {
+								"lat": 34.5614,
+								"lng": -8.8988999
+							}
+						}
+					},
+					"place_id": "ChIJqZHHQhE7WgIReiWIMkOg-MQ",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "G342+4M",
+							"short_name": "G342+4M",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Barking",
+							"short_name": "Barking",
+							"types": [
+								"postal_town"
+							]
+						},
+						{
+							"long_name": "Greater London",
+							"short_name": "Greater London",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "England",
+							"short_name": "England",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United Kingdom",
+							"short_name": "GB",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "G342+4M Barking, UK",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 51.505375,
+								"lng": 0.05175
+							},
+							"southwest": {
+								"lat": 51.50525,
+								"lng": 0.051625
+							}
+						},
+						"location": {
+							"lat": 51.50534099999999,
+							"lng": 0.0516708
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 51.50666148029151,
+								"lng": 0.05303648029150203
+							},
+							"southwest": {
+								"lat": 51.50396351970851,
+								"lng": 0.05033851970849796
+							}
+						}
+					},
+					"place_id": "GhIJ-SmOA6_ASUAR7flQWJh0qj8",
+					"plus_code": {
+						"compound_code": "G342+4M Barking, UK",
+						"global_code": "9F32G342+4M"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a natural feature",
+		"inputs": {
+			"latlng": "-25.34368664404111,131.03898822915616"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "M24Q+GH Mutitjulu NT, Australia",
+				"global_code": "5Q6HM24Q+GH"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Unnamed Road",
+							"short_name": "Unnamed Road",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Petermann",
+							"short_name": "Petermann",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Macdonnell Shire",
+							"short_name": "Macdonnell",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Northern Territory",
+							"short_name": "NT",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "0872",
+							"short_name": "0872",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Unnamed Road, Petermann NT 0872, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -25.3357371,
+								"lng": 131.0526734
+							},
+							"southwest": {
+								"lat": -25.3479752,
+								"lng": 131.029249
+							}
+						},
+						"location": {
+							"lat": -25.338044,
+							"lng": 131.0438181
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": -25.3357371,
+								"lng": 131.0526734
+							},
+							"southwest": {
+								"lat": -25.3479752,
+								"lng": 131.029249
+							}
+						}
+					},
+					"place_id": "ChIJo7oGvoFuIysRrsHUF3EPoUU",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Uluru",
+							"short_name": "Uluru",
+							"types": [
+								"establishment",
+								"natural_feature"
+							]
+						},
+						{
+							"long_name": "Petermann",
+							"short_name": "Petermann",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Macdonnell Shire",
+							"short_name": "Macdonnell",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Northern Territory",
+							"short_name": "NT",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "0872",
+							"short_name": "0872",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Uluru, Petermann NT 0872, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -25.3367692,
+								"lng": 131.0526297
+							},
+							"southwest": {
+								"lat": -25.3545453,
+								"lng": 131.021662
+							}
+						},
+						"location": {
+							"lat": -25.3444277,
+							"lng": 131.0368822
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -25.3367692,
+								"lng": 131.0526297
+							},
+							"southwest": {
+								"lat": -25.3545453,
+								"lng": 131.021662
+							}
+						}
+					},
+					"place_id": "ChIJI1JibStsIysRIV_Fm03NqEM",
+					"types": [
+						"establishment",
+						"natural_feature"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Petermann",
+							"short_name": "Petermann",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Macdonnell Shire",
+							"short_name": "Macdonnell",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Northern Territory",
+							"short_name": "NT",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "0872",
+							"short_name": "0872",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Petermann NT 0872, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -24.1351709,
+								"lng": 132.6494841
+							},
+							"southwest": {
+								"lat": -25.998647,
+								"lng": 129.0005871
+							}
+						},
+						"location": {
+							"lat": -24.2507969,
+							"lng": 131.5110646
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -24.1351709,
+								"lng": 132.6494841
+							},
+							"southwest": {
+								"lat": -25.998647,
+								"lng": 129.0005871
+							}
+						}
+					},
+					"place_id": "ChIJv-FQyG_OPCsRYEQlKqgXAgQ",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Macdonnell Shire",
+							"short_name": "Macdonnell",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Northern Territory",
+							"short_name": "NT",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "0872",
+							"short_name": "0872",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "Macdonnell, NT 0872, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -22.853946,
+								"lng": 137.999053
+							},
+							"southwest": {
+								"lat": -25.9986471,
+								"lng": 129.0005867
+							}
+						},
+						"location": {
+							"lat": -24.798151,
+							"lng": 133.1747162
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -22.853946,
+								"lng": 137.999053
+							},
+							"southwest": {
+								"lat": -25.9986471,
+								"lng": 129.0005867
+							}
+						}
+					},
+					"place_id": "ChIJvwz37mhqLisRsr9a8zDUaK0",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "0872",
+							"short_name": "0872",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "South Australia",
+							"short_name": "South Australia",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "South Australia 0872, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -18.682623,
+								"lng": 137.9990528
+							},
+							"southwest": {
+								"lat": -27.0086681,
+								"lng": 122.4837828
+							}
+						},
+						"location": {
+							"lat": -23.5886632,
+							"lng": 131.2808577
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -18.682623,
+								"lng": 137.9990528
+							},
+							"southwest": {
+								"lat": -27.0086681,
+								"lng": 122.4837828
+							}
+						}
+					},
+					"place_id": "ChIJlYoQSx5NLisRoDytWKsXAhw",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Northern Territory",
+							"short_name": "NT",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Northern Territory, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -10.809854,
+								"lng": 138.0011997
+							},
+							"southwest": {
+								"lat": -25.9986183,
+								"lng": 129.0004761
+							}
+						},
+						"location": {
+							"lat": -19.4914108,
+							"lng": 132.5509603
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -10.809854,
+								"lng": 138.0011997
+							},
+							"southwest": {
+								"lat": -25.9986183,
+								"lng": 129.0004761
+							}
+						}
+					},
+					"place_id": "ChIJDxnz5sJyUSsRdScAAAAAAAA",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -9.187026399999999,
+								"lng": 159.2872223
+							},
+							"southwest": {
+								"lat": -54.83376579999999,
+								"lng": 110.9510339
+							}
+						},
+						"location": {
+							"lat": -25.274398,
+							"lng": 133.775136
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": -9.187026399999999,
+								"lng": 159.2872223
+							},
+							"southwest": {
+								"lat": -54.83376579999999,
+								"lng": 110.9510339
+							}
+						}
+					},
+					"place_id": "ChIJ38WHZwf9KysRUhNblaFnglM",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "M24Q+GH",
+							"short_name": "M24Q+GH",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Mutitjulu",
+							"short_name": "Mutitjulu",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Macdonnell Shire",
+							"short_name": "Macdonnell",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Northern Territory",
+							"short_name": "NT",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Australia",
+							"short_name": "AU",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "0872",
+							"short_name": "0872",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "M24Q+GH Mutitjulu NT, Australia",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": -25.343625,
+								"lng": 131.039
+							},
+							"southwest": {
+								"lat": -25.34375,
+								"lng": 131.038875
+							}
+						},
+						"location": {
+							"lat": -25.3436866,
+							"lng": 131.0389882
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": -25.3423385197085,
+								"lng": 131.0402864802915
+							},
+							"southwest": {
+								"lat": -25.3450364802915,
+								"lng": 131.0375885197085
+							}
+						}
+					},
+					"place_id": "GhIJzBJT2PtXOcARwn0uZD9hYEA",
+					"plus_code": {
+						"compound_code": "M24Q+GH Mutitjulu NT, Australia",
+						"global_code": "5Q6HM24Q+GH"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	},
+	{
+		"testDescription": "Reverse geocoding a park",
+		"inputs": {
+			"latlng": "44.42268778548791,-110.59096609331438"
+		},
+		"expected": {
+			"status": "OK",
+			"plus_code": {
+				"compound_code": "CCF5+3J Yellowstone National Park, WY, USA",
+				"global_code": "85PFCCF5+3J"
+			},
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Highway 89",
+							"short_name": "US-20",
+							"types": [
+								"route"
+							]
+						},
+						{
+							"long_name": "Yellowstone National Park",
+							"short_name": "Yellowstone National Park",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Teton County",
+							"short_name": "Teton County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Wyoming",
+							"short_name": "WY",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "82190",
+							"short_name": "82190",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "US-20, Yellowstone National Park, WY 82190, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 44.4236839,
+								"lng": -110.5813727
+							},
+							"southwest": {
+								"lat": 44.4166979,
+								"lng": -110.5921724
+							}
+						},
+						"location": {
+							"lat": 44.4214821,
+							"lng": -110.5865815
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 44.4236839,
+								"lng": -110.5813727
+							},
+							"southwest": {
+								"lat": 44.4166979,
+								"lng": -110.5921724
+							}
+						}
+					},
+					"place_id": "ChIJfYpoIGr6UVMRgnmNli1jYtI",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "82190",
+							"short_name": "82190",
+							"types": [
+								"postal_code"
+							]
+						},
+						{
+							"long_name": "Mammoth",
+							"short_name": "Mammoth",
+							"types": [
+								"neighborhood",
+								"political"
+							]
+						},
+						{
+							"long_name": "Yellowstone National Park",
+							"short_name": "Yellowstone National Park",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Wyoming",
+							"short_name": "WY",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Mammoth, WY 82190, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 45.00390489999999,
+								"lng": -109.825487
+							},
+							"southwest": {
+								"lat": 44.1312909,
+								"lng": -111.056889
+							}
+						},
+						"location": {
+							"lat": 44.4620852,
+							"lng": -110.6424411
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 45.00390489999999,
+								"lng": -109.825487
+							},
+							"southwest": {
+								"lat": 44.1312909,
+								"lng": -111.056889
+							}
+						}
+					},
+					"place_id": "ChIJxbVfgaQfTlMRbbuiKE9ve3g",
+					"postcode_localities": [
+						"Mammoth",
+						"Yellowstone National Park"
+					],
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Yellowstone National Park",
+							"short_name": "Yellowstone National Park",
+							"types": [
+								"establishment",
+								"park",
+								"point_of_interest",
+								"tourist_attraction"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Yellowstone National Park, United States",
+					"geometry": {
+						"location": {
+							"lat": 44.427963,
+							"lng": -110.588455
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 44.42931198029149,
+								"lng": -110.5871060197085
+							},
+							"southwest": {
+								"lat": 44.4266140197085,
+								"lng": -110.5898039802915
+							}
+						}
+					},
+					"place_id": "ChIJVVVVVVXlUVMRu-GPNDD5qKw",
+					"plus_code": {
+						"compound_code": "CCH6+5J Yellowstone National Park, WY, USA",
+						"global_code": "85PFCCH6+5J"
+					},
+					"types": [
+						"establishment",
+						"park",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Teton County",
+							"short_name": "Teton County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Wyoming",
+							"short_name": "WY",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Teton County, WY, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 44.666805,
+								"lng": -110.051031
+							},
+							"southwest": {
+								"lat": 43.234991,
+								"lng": -111.0553309
+							}
+						},
+						"location": {
+							"lat": 43.853632,
+							"lng": -110.6314491
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 44.666805,
+								"lng": -110.051031
+							},
+							"southwest": {
+								"lat": 43.234991,
+								"lng": -111.0553309
+							}
+						}
+					},
+					"place_id": "ChIJV3wGpVVrUlMR3m18oGf5rvk",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "Wyoming",
+							"short_name": "WY",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "Wyoming, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 45.005904,
+								"lng": -104.0522449
+							},
+							"southwest": {
+								"lat": 40.994746,
+								"lng": -111.056889
+							}
+						},
+						"location": {
+							"lat": 43.0759678,
+							"lng": -107.2902839
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 45.005904,
+								"lng": -104.0522449
+							},
+							"southwest": {
+								"lat": 40.994746,
+								"lng": -111.056889
+							}
+						}
+					},
+					"place_id": "ChIJaS7hSDTiXocRLzh90nkisCY",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						}
+					],
+					"formatted_address": "United States",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 71.5388001,
+								"lng": -66.885417
+							},
+							"southwest": {
+								"lat": 18.7763,
+								"lng": 170.5957
+							}
+						},
+						"location": {
+							"lat": 37.09024,
+							"lng": -95.712891
+						},
+						"location_type": "APPROXIMATE",
+						"viewport": {
+							"northeast": {
+								"lat": 71.5388001,
+								"lng": -66.885417
+							},
+							"southwest": {
+								"lat": 18.7763,
+								"lng": 170.5957
+							}
+						}
+					},
+					"place_id": "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"address_components": [
+						{
+							"long_name": "CCF5+3J",
+							"short_name": "CCF5+3J",
+							"types": [
+								"plus_code"
+							]
+						},
+						{
+							"long_name": "Yellowstone National Park",
+							"short_name": "Yellowstone National Park",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Park County",
+							"short_name": "Park County",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "Wyoming",
+							"short_name": "WY",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "United States",
+							"short_name": "US",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "82190",
+							"short_name": "82190",
+							"types": [
+								"postal_code"
+							]
+						}
+					],
+					"formatted_address": "CCF5+3J Yellowstone National Park, WY, USA",
+					"geometry": {
+						"bounds": {
+							"northeast": {
+								"lat": 44.42275,
+								"lng": -110.590875
+							},
+							"southwest": {
+								"lat": 44.422625,
+								"lng": -110.591
+							}
+						},
+						"location": {
+							"lat": 44.4226878,
+							"lng": -110.5909661
+						},
+						"location_type": "ROOFTOP",
+						"viewport": {
+							"northeast": {
+								"lat": 44.4240364802915,
+								"lng": -110.5895885197085
+							},
+							"southwest": {
+								"lat": 44.4213385197085,
+								"lng": -110.5922864802915
+							}
+						}
+					},
+					"place_id": "GhIJh7VCoho2RkAR2yJ6Y9KlW8A",
+					"plus_code": {
+						"compound_code": "CCF5+3J Yellowstone National Park, WY, USA",
+						"global_code": "85PFCCF5+3J"
+					},
+					"types": [
+						"plus_code"
+					]
+				}
+			]
+		}
+	}
+]
