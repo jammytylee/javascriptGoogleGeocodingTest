@@ -26,3 +26,7 @@ Please note that for Command Prompt, for the environment variable to take effect
 
 ### Test Outputs
 ![testoutput](https://github.com/jammytylee/javascriptGoogleGeocodingTest/blob/main/testOutput.png)
+
+### Known Issue/Future Enhancement
+Currently, if one test in a suite fails, the whole suite would show as fail. This is likely due to a design issue in the loop that supports the Data Driven architecture.
+For now, there is a separate test data file singletesttroubleshooting.json that should be used for test development. By pasting your test data in this file and load this file as test data, you can develop tests one at a time and add test to the real test suite only after you confirmed the test works perfectly.
