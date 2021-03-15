@@ -15,7 +15,7 @@ Please note that for Command Prompt, for the environment variable to take effect
 #### In Powershell
 `$env:GOOGLE_GEOCODING_API_KEY = '<YOUR_API_KEY>'`
 #### In Bash
-`GOOGLE_GEOCODING_API_KEY = "<YOUR_API_KEY>"`
+`export GOOGLE_GEOCODING_API_KEY="<YOUR_API_KEY>"`
 5. Enter npm test in terminal and press enter. Tests should start running.
 
 ### Test Outputs
