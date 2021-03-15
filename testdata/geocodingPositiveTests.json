@@ -2504,6 +2504,90 @@
 		}
 	},
 	{
+		"testDescription": "Geocoding address with multiple components filter - country and postal code",
+		"inputs": {
+			"address": "Crystal Fall",
+			"components": "postal_code:V3E|country:ca"
+		},
+		"expected": {
+			"status": "OK",
+			"results": [
+				{
+					"address_components": [
+						{
+							"long_name": "Coquitlam",
+							"short_name": "Coquitlam",
+							"types": [
+								"locality",
+								"political"
+							]
+						},
+						{
+							"long_name": "Metro Vancouver",
+							"short_name": "Metro Vancouver",
+							"types": [
+								"administrative_area_level_2",
+								"political"
+							]
+						},
+						{
+							"long_name": "British Columbia",
+							"short_name": "BC",
+							"types": [
+								"administrative_area_level_1",
+								"political"
+							]
+						},
+						{
+							"long_name": "Canada",
+							"short_name": "CA",
+							"types": [
+								"country",
+								"political"
+							]
+						},
+						{
+							"long_name": "V3E",
+							"short_name": "V3E",
+							"types": [
+								"postal_code",
+								"postal_code_prefix"
+							]
+						}
+					],
+					"formatted_address": "Coquitlam, BC V3E, Canada",
+					"geometry": {
+						"location": {
+							"lat": 49.3185526,
+							"lng": -122.7662974
+						},
+						"location_type": "GEOMETRIC_CENTER",
+						"viewport": {
+							"northeast": {
+								"lat": 49.3199015802915,
+								"lng": -122.7649484197085
+							},
+							"southwest": {
+								"lat": 49.3172036197085,
+								"lng": -122.7676463802915
+							}
+						}
+					},
+					"place_id": "ChIJq1Y4yll-hlQRmjIPyXotiEU",
+					"plus_code": {
+						"compound_code": "869M+CF Coquitlam, BC, Canada",
+						"global_code": "84XV869M+CF"
+					},
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"tourist_attraction"
+					]
+				}
+			]
+		}
+	},
+	{
 		"testDescription": "Geocoding address with components filter - route (not enforced)",
 		"inputs": {
 			"address": "Hilton Hotel",
@@ -2609,78 +2693,6 @@
 		"expected": {
 			"status": "OK",
 			"results": [
-				{
-					"address_components": [
-						{
-							"long_name": "Coquitlam",
-							"short_name": "Coquitlam",
-							"types": [
-								"locality",
-								"political"
-							]
-						},
-						{
-							"long_name": "Metro Vancouver",
-							"short_name": "Metro Vancouver",
-							"types": [
-								"administrative_area_level_2",
-								"political"
-							]
-						},
-						{
-							"long_name": "British Columbia",
-							"short_name": "BC",
-							"types": [
-								"administrative_area_level_1",
-								"political"
-							]
-						},
-						{
-							"long_name": "Canada",
-							"short_name": "CA",
-							"types": [
-								"country",
-								"political"
-							]
-						},
-						{
-							"long_name": "V3E",
-							"short_name": "V3E",
-							"types": [
-								"postal_code",
-								"postal_code_prefix"
-							]
-						}
-					],
-					"formatted_address": "Coquitlam, BC V3E, Canada",
-					"geometry": {
-						"location": {
-							"lat": 49.3185526,
-							"lng": -122.7662974
-						},
-						"location_type": "GEOMETRIC_CENTER",
-						"viewport": {
-							"northeast": {
-								"lat": 49.3199015802915,
-								"lng": -122.7649484197085
-							},
-							"southwest": {
-								"lat": 49.3172036197085,
-								"lng": -122.7676463802915
-							}
-						}
-					},
-					"place_id": "ChIJq1Y4yll-hlQRmjIPyXotiEU",
-					"plus_code": {
-						"compound_code": "869M+CF Coquitlam, BC, Canada",
-						"global_code": "84XV869M+CF"
-					},
-					"types": [
-						"establishment",
-						"point_of_interest",
-						"tourist_attraction"
-					]
-				},
 				{
 					"address_components": [
 						{
@@ -3174,5 +3186,5 @@
 				}
 			]
 		}
-	}	
+	}
 ]
